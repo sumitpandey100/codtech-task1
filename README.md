@@ -1,3 +1,4 @@
+Name : SUMIT PANDEY Company : CODTECH IT SOLUTIONS ID : CT6WDS74 Domain : VLSI Duration :1st JUNE 2024 to 13th JULY 2024 Mentor : SRAVANI GOUNI
 ![WhatsApp Image 2024-06-30 at 16 32 09_ad3907bf](https://github.com/sumitpandey100/codtech-task1/assets/174246328/dad6c08e-3f93-4468-8bf5-949cc2ac2c6b)
 ![WhatsApp Image 2024-06-30 at 16 32 10_91a19048](https://github.com/sumitpandey100/codtech-task1/assets/174246328/5f9eaace-9dc2-4d9a-b50f-edb55ebbce25)
 ![WhatsApp Image 2024-06-30 at 16 32 10_adffc7de](https://github.com/sumitpandey100/codtech-task1/assets/174246328/c595a0ab-3b59-4bd6-bd13-651484e9e966)
