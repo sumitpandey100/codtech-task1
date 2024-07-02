@@ -10,83 +10,50 @@ Name : SUMIT PANDEY Company : CODTECH IT SOLUTIONS ID : CT6WDS74 Domain : VLSI D
 ![WhatsApp Image 2024-06-30 at 16 31 52_60d1a2ea](https://github.com/sumitpandey100/codtech-task1/assets/174246328/dc798fae-cd88-445f-ac29-ac111fdc3eac)
 ![WhatsApp Image 2024-06-30 at 16 31 53_0c6e1b58](https://github.com/sumitpandey100/codtech-task1/assets/174246328/dfeb4fdb-da3e-4113-b1ea-ce327b049788)
 ![WhatsApp Image 2024-06-30 at 16 31 53_573a56ea](https://github.com/sumitpandey100/codtech-task1/assets/174246328/40cdbfe8-7ccc-4efe-8509-3c9a30510a51)
-Overview of Verilog Logic Gates Project
+Project Overview: Designing and Testing a Finite State Machine (FSM) in Verilog using ModelSim
 Objective
-The objective of this project is to have basic digital logic circuits designed, implemented, and simulated using Verilog hardware description language (HDL) and ModelSim simulation software. A comprehensive understanding of digital logic design is aimed to be provided, including the creation of various logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR) and combinational circuits (such as adders and multiplexers). By the end of the project, the functionality of these circuits is to be verified through simulation and waveform analysis.
+The primary objective of this project is to design, implement, simulate, and verify a Finite State Machine (FSM) using Verilog and ModelSim. The project aims to provide a practical understanding of FSM design in digital systems and demonstrate the use of hardware description languages (HDL) and simulation tools in the VLSI design process.
 
 Key Activities
-Learning Verilog HDL:
+FSM Design
 
-The syntax and semantics of Verilog are to be understood.
-Familiarity with different Verilog constructs such as modules, ports, wires, and registers is to be developed.
-Designing Logic Gates:
+The FSM's state diagram, including states and transitions, was defined.
+The states were encoded, and state transition logic was defined.
+FSM Implementation in Verilog
 
-Various basic logic gates are to be implemented using Verilog:
-AND gate
-OR gate
-NOT gate
-NAND gate
-NOR gate
-XOR gate
-XNOR gate
-Designing Combinational Circuits:
+Verilog code was written to implement the FSM based on the defined state diagram.
+The code included state encoding, state registers, and next-state logic.
+Testbench Development
 
-More complex circuits using basic gates are to be implemented:
-Half Adder
-Full Adder
-2-to-1 Multiplexer
-Writing Testbenches:
+A Verilog testbench was written to simulate the FSM.
+A test sequence was developed to validate the FSM’s behavior under various conditions.
+Simulation and Verification
 
-Testbenches for each logic gate and combinational circuit are to be developed.
-Different input combinations are to be applied, and outputs are to be observed to verify correct functionality.
-Simulation in ModelSim:
-
-The Verilog code and testbenches are to be compiled.
-Simulations using ModelSim are to be run to generate waveforms.
-Waveforms are to be analyzed to ensure the circuits perform as expected.
-Verification and Debugging:
-
-The correctness of the logic gates and combinational circuits is to be verified by comparing the simulation results with expected results.
-Any issues found during simulation are to be debugged.
-Project Components
-Logic Gate Modules:
-
-Each gate is to be implemented as a separate Verilog module.
-Example modules:
-myandgate
-myorgate
-mynotgate
-mynandgate
-mynnorgate
-myxorgate
-myxnorgate
-Combinational Circuit Modules:
-
-More complex circuits using multiple logic gates are to be implemented.
-Example modules:
-myhalfadder
-myfulladder
-my2to1mux
-Testbenches:
-
-Each module is to have an associated testbench to verify its functionality.
-Testbenches are to apply various input combinations and check outputs.
-$display statements are to be used to print results to the console.
-Waveform viewers in ModelSim are to be used for visual verification.
-Skills and Tools Used
-Verilog HDL:
-
-Writing of syntactically correct and efficient Verilog code is to be done.
-An understanding of basic digital logic and combinational circuit design is to be demonstrated.
-ModelSim:
-
-The compilation and simulation of Verilog code are to be performed.
-Waveform viewers are to be used to analyze the behavior of digital circuits.
-Debugging and Verification:
-
-Errors in Verilog code are to be identified and fixed.
-The correctness of digital circuits is to be verified through simulation and comparison with expected results.
-Project Summary
-This project demonstrates the ability to design and implement digital logic circuits using Verilog HDL. The designs are validated through simulation in ModelSim to confirm the correct operation of basic logic gates and more complex combinational circuits. Hands-on experience is gained from writing testbenches and analyzing waveforms, developing a solid foundation in digital design and simulation. The importance of verification and debugging in the design process is highlighted, ensuring that the final circuits perform as intended
-
-
+ModelSim was used to compile and simulate the Verilog code.
+It was verified that the FSM transitions correctly between states as per the defined state diagram.
+Simulation waveforms were analyzed to ensure the FSM operates as expected.
+Detailed Description
+FSM Design
+State Diagram: The FSM was defined with states and transitions. For example, a 3-state FSM with states A, B, and C where:
+A transitions to B.
+B transitions to C.
+C transitions back to A.
+FSM Implementation in Verilog
+State Encoding: Binary codes were assigned to each state. Example:
+A = 2'b00
+B = 2'b01
+C = 2'b10
+Testbench Development
+Clock Generation: A clock signal was created for simulation.
+Reset Initialization: A reset signal was applied to initialize the FSM.
+Test Sequence: A sequence of inputs and expected outputs was defined to test state transitions.
+Simulation and Verification
+Compile the Design: The Verilog code and the testbench were compiled using ModelSim.
+Run the Simulation: The testbench was executed in ModelSim to simulate the FSM.
+Verify Outputs: The simulation results and waveforms were checked to ensure the FSM transitions between states correctly.
+Outcomes
+The FSM was successfully designed and implemented in Verilog.
+A comprehensive testbench was developed to simulate and validate FSM behavior.
+The correct operation of the FSM was verified using ModelSim, ensuring it met the specified design criteria.
+Conclusion
+This project provided hands-on experience in digital design using Verilog, including FSM design, implementation, testing, and verification using simulation tools. Key concepts in HDL-based design and the practical application of simulation for verifying digital systems were reinforced.
